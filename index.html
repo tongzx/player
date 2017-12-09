@@ -19,12 +19,12 @@
 
 </head>
 
-<body style="margin:0px; padding:0px;" id="plugins_httpstreamingm3u8">
+<body style="margin:0px; padding:0px; background:#000; width: 100%; height:100%" id="plugins_httpstreamingm3u8">
 <center>
 <div id="wrap">
 <div id="content">
 <script type="text/javascript" src="libs/flowplayer.ipad-3.2.12.min.js"></script>
-<div style="margin:0px; bgcolor:#0; width: 100%; height: 720px;">
+<div style="margin:0px; width: 100%; height: 720px;">
 <!-- player container-->
 <a style="display: block; width: 100%; height: 100%;" id="player">
 </a><!-- Flowplayer installation and configuration -->
@@ -71,8 +71,8 @@ filter: 'org.flowplayer.controller.*'
 }
 };
 
-configs.clip.url=id; //="http://218.76.174.78:1935/live/hnws/playlist.m3u8";
-configs.clip.ipadUrl=id; //="http://218.76.174.78:1935/live/hnws/playlist.m3u8";
+configs.clip.url="http://218.76.174.78:1935/live/hnws/playlist.m3u8";
+configs.clip.ipadUrl="http://218.76.174.78:1935/live/hnws/playlist.m3u8";
 
 flowplayer("player", "libs/flowplayer.swf", configs).ipad();
 
