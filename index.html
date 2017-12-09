@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><title>Flowplayer - flashls</title>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><title>湖南卫视直播 (by Flowplayer - flashls)</title>
 
 <script type="text/javascript" src="libs/flowplayer-3.2.12.min.js"></script>
 <script type="text/javascript" src="libs/jquery.min.js"></script>
@@ -20,10 +20,11 @@
 </head>
 
 <body style="margin:0px; padding:0px;" id="plugins_httpstreamingm3u8">
+<center>
 <div id="wrap">
 <div id="content">
 <script type="text/javascript" src="libs/flowplayer.ipad-3.2.12.min.js"></script>
-<div style="margin:0px; width: 1000px; height: 800px;">
+<div style="margin:0px; width: 1000px; height: 750px;">
 <!-- player container-->
 <a style="display: block; width: 100%; height: 100%;" id="player">
 </a><!-- Flowplayer installation and configuration -->
@@ -65,8 +66,8 @@ filter: 'org.flowplayer.controller.*'
 }
 };
 
-configs.clip.url="http://yf.m.l.cztv.com/channels/lantian/channel01/360p.m3u8";
-configs.clip.ipadUrl="http://yf.m.l.cztv.com/channels/lantian/channel01/360p.m3u8";
+configs.clip.url="http://218.76.174.78:1935/live/hnws/chunklist_w864160563.m3u8";
+configs.clip.ipadUrl="http://218.76.174.78:1935/live/hnws/chunklist_w864160563.m3u8";
 
 flowplayer("player", "libs/flowplayer.swf", configs).ipad();
   
@@ -114,4 +115,5 @@ filter: 'org.flowplayer.controller.*'
 </script></div>
 </div>
 </div>
+</center>
 </body></html>
